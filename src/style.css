@@ -1,0 +1,62 @@
+.calculator,
+.display,
+.buttons {
+  border: 2px solid black;
+  padding: 10px 5px;
+}
+.calculator {
+  margin: 80px auto;
+  max-width: 350px;
+  background: rgb(51, 51, 51);
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+.display {
+  background: black;
+  text-align: right;
+  border-radius: 5px 5px 0 0;
+  padding: 5px;
+}
+.formula {
+  color: rgb(255, 136, 0);
+  font-size: 16px;
+  margin: 0;
+  line-height: 15px;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-radius: 4px 4px 0 0;
+  padding: 3px 5px 0;
+}
+.output {
+  color: rgb(0, 206, 0);
+  font-size: larger;
+  margin: 0;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-radius: 0 0 4px 4px;
+  padding: 0 5px 3px;
+}
+.buttons {
+  align-content: center;
+  background: rgb(77, 77, 77);
+  border-radius: 0 0 5px 5px;
+}
+.row {
+  max-width: 100%;
+  margin: 3px;
+}
+.btn {
+  border: 1px solid black;
+  font-size: 20px;
+  box-shadow: 1px 1px 1px black;
+}
+.btn-primary {
+  line-height: 77px;
+  position: relative;
+  top: -94px;
+  float: right;
+  right: 3px;
+}
