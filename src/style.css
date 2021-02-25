@@ -60,3 +60,6 @@
   float: right;
   right: 3px;
 }
+.btn:hover {
+  border: 1px solid black;
+}
