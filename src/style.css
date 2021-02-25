@@ -1,3 +1,7 @@
+body {
+  background: linear-gradient(rgb(0, 225, 255), rgb(79, 255, 79)) no-repeat
+    center center fixed;
+}
 .calculator,
 .display,
 .buttons {
