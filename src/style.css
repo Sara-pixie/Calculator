@@ -9,7 +9,7 @@ body {
   padding: 10px 5px;
 }
 .calculator {
-  margin: 80px auto;
+  margin: 80px auto 30px;
   max-width: 350px;
   background: rgb(51, 51, 51);
   border-radius: 5px;
@@ -58,7 +58,7 @@ body {
 .btn {
   border: 1px solid black;
   font-size: 20px;
-  box-shadow: 1px 1px 1px black;
+  box-shadow: 1px 1px 1px rgb(44, 31, 31);
 }
 .btn-primary {
   line-height: 77px;
@@ -69,4 +69,20 @@ body {
 }
 .btn:hover {
   border: 1px solid black;
+}
+.footer {
+  width: fit-content;
+  margin: 0 auto;
+}
+.footer p {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.75);
+  line-height: 1;
+}
+.footer a {
+  color: black;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
 }
