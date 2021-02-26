@@ -3,7 +3,7 @@ function clearAll(event){
     output.innerHTML = null;
 }
 function calculate(event){
-    let calculated = eval(formula.innerHTML);
+    let calculated = eval(formula.innerHTML.replace("x", "*"));
     if (calculated === undefined){
         clearAll();
     } else{
