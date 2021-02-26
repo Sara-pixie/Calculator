@@ -6,3 +6,4 @@ A simple Vanilla JavaScript Calculator
 - HTML
 - CSS
 - Vanilla JavaScript
+- Bootstrap
