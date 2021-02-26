@@ -32,16 +32,19 @@ body {
   border-right: 1px solid grey;
   border-radius: 4px 4px 0 0;
   padding: 3px 5px 0;
+  min-height: 19px;
 }
 .output {
   color: rgb(0, 206, 0);
   font-size: larger;
   margin: 0;
+  line-height: 25px;
   border-bottom: 1px solid grey;
   border-left: 1px solid grey;
   border-right: 1px solid grey;
   border-radius: 0 0 4px 4px;
   padding: 0 5px 3px;
+  min-height: 29px;
 }
 .buttons {
   align-content: center;
