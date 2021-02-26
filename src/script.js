@@ -13,9 +13,15 @@ function calculate(event){
 }
 function handleInput(event){
     event.preventDefault();
+    let splitFormula = formula.innerHTML.split("=");
+    let result = splitFormula[1];
     let input = this.innerHTML;
-    formula.innerHTML += input;
     output.innerHTML = input;
+    if (result !== undefined){
+        formula.innerHTML = result += input;
+    } else {
+        formula.innerHTML += input;
+    }
 }
 
 let formula = document.querySelector("#formula");
